@@ -1,0 +1,24 @@
+
+.Encabezado{
+  border: 1px black solid;
+}
+.Encabezado h3{
+  text-align: right;
+}
+
+.Encabezado img{
+  border: 1px orange solid;
+  width: 100px;
+  height: 100px;
+}
+
+.Cuerpo{
+  border: 1px black solid;
+  height: 250px;
+  width: 350px
+
+}
+
+.PieDePagina{
+  border: 1px black solid;
+}
