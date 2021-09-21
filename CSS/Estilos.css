@@ -1,4 +1,5 @@
 
+/*Estilos General*/
 .Encabezado{
   border: 1px black solid;
 }
@@ -12,6 +13,31 @@
   height: 100px;
 }
 
+nav ul {
+  list-style: none;/*Quita los puntos negros del listado*/
+
+}
+nav a {
+  text-decoration: none;/*quita el subrayado de las etiquetas "a" */
+  color: white;/*color de las letras blanco*/
+  background: #000;/*fodo colro negro*/
+  display: block;/*Los muestra en bloques*/
+  width: 100px;/*da un hancho de 100px fijos*/
+  padding: 0 1.5em;/*da margen interno de 0 arriba y abajo y 2.5 a los lados*/
+  transition: .4s;/*lo que tarde en cambiar el color no sea tan rapido*/
+}
+nav a:hover{
+  background: rgba(0, 0, 0, 0.5);/*color cuando el maus pase por los elementos a*/
+}
+/*----------------Primer Nivel------------------------------------*/
+
+/*el signo " > "  quiere decir que sean directos de el elemento anterior*/
+nav > ul > li{
+  float: left;/*Fotar o resaltar los elemntos*/
+
+}
+
+/*-----------------------------------------------------------------------*/
 .Cuerpo{
   border: 1px black solid;
   height: 250px;
