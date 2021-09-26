@@ -1,30 +1,45 @@
+/* body */
 
 /*Estilos General*/
 .Encabezado{
-  border: 1px black solid;
+  /*border: 1px black solid; /* coloca un borde*/
+  background: rgba(173, 216, 230, .7);/*fondo con una trasparencia*/
+  position: relative;/*Posicionamiento Relativo*/
+  height: 125px;
+  margin: 0 10px;
 }
 .Encabezado h3{
-  text-align: right;
+  text-align: right;/*alinea el texto */
+  font-size: 25px;/*cambia el tamaño de letra */
+  padding-top: 20px;
 }
 
 .Encabezado img{
   border: 1px orange solid;
   width: 100px;
   height: 100px;
+  position: absolute;
+  top: 5px;
+  left: 10px;
 }
-
+/*--------------------------------Barra de Navegación-----------------------*/
+nav {
+  position: absolute;
+  top: 55px;
+  right: 0px;
+}
 nav ul {
   list-style: none;/*Quita los puntos negros del listado*/
-
 }
 nav a {
   text-decoration: none;/*quita el subrayado de las etiquetas "a" */
   color: white;/*color de las letras blanco*/
   background: #000;/*fodo colro negro*/
-  display: block;/*Los muestra en bloques*/
-  width: 100px;/*da un hancho de 100px fijos*/
-  padding: 0 1.5em;/*da margen interno de 0 arriba y abajo y 2.5 a los lados*/
+  /*display: block;/*Los muestra en bloques*/
+  width: 85px;/*da un hancho de 85px fijos*/
+  padding: 0 1em;/*da margen interno de 0 arriba y abajo y 2.5 a los lados*/
   transition: .4s;/*lo que tarde en cambiar el color no sea tan rapido*/
+  font-size: 20px;/*Cambia el tamño del texto*/
 }
 nav a:hover{
   background: rgba(0, 0, 0, 0.5);/*color cuando el maus pase por los elementos a*/
@@ -41,7 +56,9 @@ nav > ul > li{
 .Cuerpo{
   border: 1px black solid;
   height: 250px;
-  width: 350px
+  width: 350px;
+  clear:both;
+  margin-top: 10px;
 
 }
 
